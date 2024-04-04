@@ -14,6 +14,7 @@
 		CB8986B92BBE35AC0075ECCA /* TextScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8986B82BBE35AC0075ECCA /* TextScannerTests.swift */; };
 		CB8986C32BBE35AC0075ECCA /* TextScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8986C22BBE35AC0075ECCA /* TextScannerUITests.swift */; };
 		CB8986C52BBE35AC0075ECCA /* TextScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8986C42BBE35AC0075ECCA /* TextScannerUITestsLaunchTests.swift */; };
+		CB8986D22BBE36760075ECCA /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8986D12BBE36760075ECCA /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CB8986BE2BBE35AC0075ECCA /* TextScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8986C22BBE35AC0075ECCA /* TextScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScannerUITests.swift; sourceTree = "<group>"; };
 		CB8986C42BBE35AC0075ECCA /* TextScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CB8986D12BBE36760075ECCA /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CB8986A72BBE35AB0075ECCA /* TextScannerApp.swift */,
 				CB8986A92BBE35AB0075ECCA /* ContentView.swift */,
+				CB8986D12BBE36760075ECCA /* CameraView.swift */,
 				CB8986AB2BBE35AC0075ECCA /* Assets.xcassets */,
 				CB8986AD2BBE35AC0075ECCA /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB8986D22BBE36760075ECCA /* CameraView.swift in Sources */,
 				CB8986AA2BBE35AB0075ECCA /* ContentView.swift in Sources */,
 				CB8986A82BBE35AB0075ECCA /* TextScannerApp.swift in Sources */,
 			);
@@ -425,6 +429,7 @@
 				DEVELOPMENT_TEAM = 3Y8YH8GWMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera permissions for taking photos and videos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +459,7 @@
 				DEVELOPMENT_TEAM = 3Y8YH8GWMM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera permissions for taking photos and videos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
